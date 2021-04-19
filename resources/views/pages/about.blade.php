@@ -1,8 +1,6 @@
 @extends('base')
 
-@section('title')
-Exactime|A propos de
-@endsection
+@section('title','A propos de |' . config('app.name'))
 
 @section('content')
         
