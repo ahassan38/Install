@@ -4,15 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Exactime</title>
+        <title>@yield('title', 'Exactime')</title>
 
         
     </head>
     <body>
+        
         @yield('content')
-
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">A propos de</a></p> 
+            <p>&copy; Copyright {{ date('Y') }} &middot;<a href="/about-us">A propos de</a> </p> 
         <footer>
     </body>
 </html>
