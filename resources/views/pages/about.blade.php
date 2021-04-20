@@ -11,4 +11,6 @@
 
         <p><a href="{{route('home')}}" class="text-indigo-500 hover:text-indigo-700 underline">Revenir à la page d'accueil></a></p>
 
+        <p><a href="{{route('auth')}}" class="text-indigo-500 hover:text-indigo-800 underline">Connexion</p>
+
 @endsection

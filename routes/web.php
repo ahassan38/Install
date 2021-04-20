@@ -9,3 +9,7 @@ Route::get('/', function() {
 Route::get('/about-us', function() {
     return view('pages/about');
 })->name('about');
+
+Auth::routes();
+
+Route::get('/auth', [App\Http\Controllers\HomeController::class, 'index'])->name('auth');
