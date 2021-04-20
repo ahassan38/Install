@@ -4,7 +4,7 @@
 
 @section('content')
 
-        <img src="/images/sato.gif" alt="manga avatar">
+        <img src="{{asset('/images/sato.gif')}}" alt="manga avatar">
 
         <p>élaboré &hearts; par mes soins!</p>
 
